@@ -1,0 +1,18 @@
+Dies ist eine Referenzliste der am häufigsten verwendeten Git-Befehle. (Sie könnten erwägen, diese praktische Seite mit einem Lesezeichen zu versehen.) Versuchen Sie, sich mit den Befehlen vertraut zu machen, damit Sie sich irgendwann alle merken können:
+
+Befehle im Zusammenhang mit einem Remote-Repository:
+git clone git@github.com:USER-NAME/REPOSITORY-NAME.git
+git pushoder git push origin main(Beide erreichen in diesem Zusammenhang das gleiche Ziel)
+Befehle im Zusammenhang mit dem Workflow:
+git add .
+git commit -m "A message describing what you have done to make this snapshot different"
+Befehle im Zusammenhang mit der Überprüfung des Status oder des Protokollverlaufs
+git status
+git log
+Die grundlegende Git-Syntax ist program | action | destination.
+
+Zum Beispiel,
+
+git add .wird gelesen als git | add | ., wobei der Punkt alles im aktuellen Verzeichnis darstellt;
+git commit -m "message"wird gelesen als git | commit -m | "message"; Und
+git statuswird gelesen als git | status | (no destination).
